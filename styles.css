@@ -1,0 +1,103 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Caveat';
+}
+.header{
+    background-color: rgb(167, 255, 255);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menuCont{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    font-size: 68px;
+    margin: 0;
+    font-family: 'Caveat', cursive;
+}
+.sector{
+  transition: width 0.5s ease;
+}
+.background{
+    height: 903px;
+    background-size: cover;
+    background-image: url(https://mriyamed.ru/upload/iblock/9d8/9d834efe30cc41c2dbc4f58e748417f5.jpg);
+    
+}
+.choose{
+    padding: 200px;
+    display: flex;
+    height: 503px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(./images/background.jpg);
+    background-position-y:center ;
+}
+.btnContainer{
+    display: flex;
+    flex-direction:column;
+    width: 200px;
+}
+
+.button{
+    font-family: 'Caveat', cursive;
+    width: 200px;
+    height: 75px;
+    font-size: 27px;
+    margin-bottom: 10px;
+    background-color: aqua ;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+.button:hover{
+    width: 200px;
+    height: 75px;
+    font-size: 27px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 27, 116) ;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
+.title{
+    opacity: 0.3;
+    position: absolute;
+    left: -80px;
+    transition: position 0.5s;
+}
+a{
+    text-decoration: none;
+}
+.image-container {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s;
+  }
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s;
+  }
